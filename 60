@@ -1,7 +1,12 @@
 
 > [Vulnerability description]
 
-Z-Wave  devices supporting security 2 (S2) encryption with chipset 500 are vulnerable to uncrontrolled resource consumption (CWE-400) vulnerability, which may allow a remote, unauthenticated attacker to send infinite SECURITY_2_NONCE_GET to  a vulnerable device that leads to partial denial of service (DoS) due to high CPU/MCU consumption.  Affected products include S2 authenticated and unauthenticated   Z-Wave smart home devices with chipset 500. This vulnerability is due to  the lack of authenticating the sender and the  missing of response rate limiting for SECURITY_2_NONCE_GET frame.  This vulnerability can be fixed by authenticating the sender, implementing the response rate limiting for command SECURITY_2_NONCE_GET.
+Z-Wave  devices supporting security 2 (S2) encryption with chipset 500 are vulnerable to uncrontrolled resource consumption (CWE-400) 
+vulnerability, which may allow a remote, unauthenticated attacker to send infinite SECURITY_2_NONCE_GET to  a vulnerable device 
+that leads to partial denial of service (DoS) due to high CPU/MCU consumption.  Affected products include S2 authenticated 
+and unauthenticated   Z-Wave smart home devices with chipset 500. This vulnerability is due to  the lack of authenticating 
+the sender and the  missing of response rate limiting for SECURITY_2_NONCE_GET frame.  This vulnerability can be fixed 
+by authenticating the sender, implementing the response rate limiting for command SECURITY_2_NONCE_GET.
 
 
 > [Additional Information]
