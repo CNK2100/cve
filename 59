@@ -35,8 +35,7 @@ The range can be increased by using an advanced Software-Defined Radio (SDR) har
 
 > [What is the impact of this vulnerability ?]
 
- Battery-powered S0 devices' battery exhaustion causing 
- denial of service (DoS).
+ Battery-powered S0 devices' battery exhaustion causing denial of service (DoS).
 ------------------------------------------
 
 > [Vendor of Product]
