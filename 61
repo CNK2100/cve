@@ -2,7 +2,12 @@
 
 > [Vulnerability description]
 
-Z-Wave  controller supporting security 2 (S2) encryption with chipset 500 are vulnerable to improper authorization (CWE-285) vulnerability, which may allow a remote, unauthenticated attacker to inject an invalid device Node information (NIF) frame that modifies the valid NIF stored in the controller memory. This causes denial of service (DoS) on a  target Z-Wave slave device implementing Security 0 (S0) encryption.   Affected products include  Z-Wave controllers with 500 chipset. This vulnerability is due the lack of authenticating the sender and unencrypted NIF frames.  This vulnerability can be fixed by authenticating the sender and mandate the encryption of NIF frame. 
+Z-Wave  controller supporting security 2 (S2) encryption with chipset 500 are vulnerable to improper authorization (CWE-285)
+vulnerability, which may allow a remote, unauthenticated attacker to inject an invalid device Node information (NIF) frame 
+that modifies the valid NIF stored in the controller memory. This causes denial of service (DoS) on a  target Z-Wave slave device
+implementing Security 0 (S0) encryption.   Affected products include  Z-Wave controllers with 500 chipset. T
+his vulnerability is due the lack of authenticating the sender and unencrypted NIF frames.  
+This vulnerability can be fixed by authenticating the sender and mandate the encryption of NIF frame. 
 
 > [Additional Information]
 
